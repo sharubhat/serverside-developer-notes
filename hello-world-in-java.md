@@ -1,29 +1,30 @@
 # Hello world in Java
 
-`public class HelloWorld {`
+```
+public class HelloWorld {    
+    public static void main(String[] args) {
+        System.out.println(“Hello”);
+    }
+}
+```
 
-`    public static void main(String[] args) { `
+ What does each keyword mean?
 
-`        System.out.println(“Hello”); `
+* public - Should be visible to JVM
 
-`    } `
+* class - Everything in java is a an object which is an instance of class
 
-`}`
+* HelloWorld - class name, same as file name if class is public. Only one public class per .java file
 
-* public - Should be visible to JVM 
+* static - static means the method is part of class and not it’s instance. If it’s non-static, then instance needs to be created which is not realistic.
 
-* class - Everything in java is a an object which is an instance of class 
-
-* HelloWorld - class name, same as file name if class is public. Only one public class per .java file 
-
-* static - static means the method is part of class and not it’s instance. If it’s non-static, then instance needs to be created which is not realistic. 
 * void - return type 
 * main\(\) - program entrance 
 * String\[\] - array of strings that can be sent to help with program initialization
 
 Bytecode from javac is not readable
 
-javap -c gives disassembled code 
+javap -c gives disassembled code
 
 e.g.: javap -classpath . -c HelloWorld
 
@@ -33,21 +34,22 @@ e.g.: javap -classpath . -c HelloWorld
 
 First steps: Load, link, initialize - before executing main method
 
-**Load:** 
+**Load:**
 
-Load binaries from class\/interface into JVM 
+Load binaries from class\/interface into JVM
 
 **Link: **
 
-Incorporate binary type data into run-time state of JVM. 
+Incorporate binary type data into run-time state of JVM.
 
-Three steps: 
+Three steps:
 
-* Verification: Verify the structure of class\/interface 
+* Verification: Verify the structure of class\/interface
 
-* Preparation: Allocate memory needed for class\/interface 
+* Preparation: Allocate memory needed for class\/interface
 
-* Resolution: Resolve symbolic references 
+* Resolution: Resolve symbolic references
+
 
 **Initialization: **
 
@@ -64,4 +66,5 @@ done by Java classloaders. JVM loads three class loaders when it starts up
 * Extensions class loader: loads code in extension directories \/jre\/lib\/ext
 
 * System class loader: loads code found on CLASSPATH
+
 
