@@ -5,7 +5,7 @@ Lambdas are briefly and clearly expressed single method classes that represent a
 **Examples:**
 
 ```
-// concatinate a string
+// concatenate a string
 (String s1, String s2) -> s1+s2; 
 
 // squaring up two integers
@@ -25,6 +25,8 @@ Type of any lambda is a functional interface.
 
 Functional Interface is a special interface with one and only one abstract method. It's recommended to use @FunctionalInterface annotation with the interface.
 
+**Functional interface:**
+
 ```
 @FunctionalInterface
 public interface IApplyable<T> {
@@ -32,7 +34,9 @@ public interface IApplyable<T> {
 } 
 ```
 
-IApplyable is a generic type interface. Therefore any lambda can be assigned to this interface.
+IApplyable is a generic type interface. Therefore any lambda can be assigned to this interface as long as they have same number of arguments.
+
+**Assigning lambda to functional interface type:**
 
 ```
 IApplyable<Employee> i = (Employee e1, Employee e2) -> {    
@@ -40,10 +44,28 @@ IApplyable<Employee> i = (Employee e1, Employee e2) -> {
     return e1;
 };
 
- IApplyable<String> stringAdder = (String s1, String s2) -> s1 + "_new" + s2;  
+ IApplyable<Integer> intSummer = (Integer i1, Integer i2) -> i1 + i2;  
 ```
 
+**Using lambda expressions:**
 
+If the lambda expression is assigned to a function interface with a type, the arguments of lambda expression need not specify the type explicitely; they are inferred.concatenate
+
+```
+// Lambda for adding two numbers
+IApplyable<Integer> intSum = (i1, i2) -> i1 + i2;
+IApplyable<Integer> intProduct = (i1, i2) -> i1 * i2;
+
+// this method adds the two numbers using first lambda expression
+private void addInteger(Integer i1, Integer i2) {
+    System.out.println("Sum : " + intSum.apply(i1, i2));
+} 
+
+// this method multiplies two numbers using second lambda expression
+private void multiply(Integer i1, Integer i2) {
+    System.out.println("Product : " + intProduct.apply(i1, i2));
+} 
+```
 
 
 
