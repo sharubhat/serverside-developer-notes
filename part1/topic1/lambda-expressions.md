@@ -67,5 +67,11 @@ private void multiply(Integer i1, Integer i2) {
 } 
 ```
 
+**Passing lambda as method argument:**
 
+```
+public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer i2) {
+    applyable.apply(i1, i2);
+} 
+```
 
