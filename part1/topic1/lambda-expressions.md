@@ -1,5 +1,7 @@
 # Java 8 - lambda expressions
 
+###Lambdas
+
 Lambdas are briefly and clearly expressed single method classes that represent a behavior.  They can either be assigned to a variable or passed around to other methods just like we pass data as arguments.
 
 **Examples:**
@@ -25,7 +27,7 @@ Type of any lambda is a functional interface.
 
 Functional Interface is a special interface with one and only one abstract method. It's recommended to use @FunctionalInterface annotation with the interface.
 
-**Functional interface:**
+###Functional interface:
 
 ```
 @FunctionalInterface
@@ -81,5 +83,13 @@ public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer 
 
 **Function** interface has a single method '_apply\(T t\)_' which accepts an argument of type T and returns a result of type R by applying specified logic on the input via the apply method.
 
+**Consumer** interface provides single method '_accept\(T t\)'_ which can be used for persisting data, emailing etc.
 
+**Producer** interface provides single method '_get\( \)_' which can be used for fetching data from database, loading data etc.
+
+**BiPredicate**, **BiConsumer** and **BiFunction** are also available.
+
+
+
+###Default methods:
 
