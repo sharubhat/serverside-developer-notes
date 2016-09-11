@@ -75,3 +75,11 @@ public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer 
 } 
 ```
 
+**java.util.Function package:**
+
+**Predicate** interface has a single method '_test\(T t\)_' which accepts a single argument and returns a boolean.
+
+**Function** interface has a single method '_apply\(T t\)_' which accepts an argument of type T and returns a result of type R by applying specified logic on the input via the apply method.
+
+
+
