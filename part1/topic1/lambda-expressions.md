@@ -93,3 +93,8 @@ public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer 
 
 ###Default methods:
 
+Interfaces in java 8 can have methods with default implementation. This gives ability to add additional functionalities to already published APIs. 
+
+```
+@FunctionalInterface
+public interface 
