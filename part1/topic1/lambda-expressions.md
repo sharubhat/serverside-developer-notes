@@ -1,12 +1,12 @@
 # Java 8 - lambda expressions
 
-###Lambdas
+### Lambdas
 
 Lambdas are briefly and clearly expressed single method classes that represent a behavior.  They can either be assigned to a variable or passed around to other methods just like we pass data as arguments.
 
 **Examples:**
 
-```
+```java
 // concatenate a string
 (String s1, String s2) -> s1+s2; 
 
@@ -27,9 +27,9 @@ Type of any lambda is a functional interface.
 
 Functional Interface is a special interface with one and only one abstract method. It's recommended to use @FunctionalInterface annotation with the interface.
 
-###Functional interface:
+### Functional interface:
 
-```
+```java
 @FunctionalInterface
 public interface IApplyable<T> {
     public T apply(T t1, T t2);
@@ -40,20 +40,20 @@ IApplyable is a generic type interface. Therefore any lambda can be assigned to 
 
 **Assigning lambda to functional interface type:**
 
-```
+```java
 IApplyable<Employee> i = (Employee e1, Employee e2) -> {    
     e1.setSalary(e1.getSalary() + e2.getSalary());    
     return e1;
 };
 
- IApplyable<Integer> intSummer = (Integer i1, Integer i2) -> i1 + i2;  
+IApplyable<Integer> intSummer = (Integer i1, Integer i2) -> i1 + i2;  
 ```
 
 **Using lambda expressions:**
 
 If the lambda expression is assigned to a function interface with a type, the arguments of lambda expression need not specify the type explicitely; they are inferred.concatenate
 
-```
+```java
 // Lambda for adding two numbers
 IApplyable<Integer> intSum = (i1, i2) -> i1 + i2;
 IApplyable<Integer> intProduct = (i1, i2) -> i1 * i2;
@@ -71,7 +71,7 @@ private void multiply(Integer i1, Integer i2) {
 
 **Passing lambda as method argument:**
 
-```
+```java
 public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer i2) {
     applyable.apply(i1, i2);
 } 
@@ -89,12 +89,25 @@ public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer 
 
 **BiPredicate**, **BiConsumer** and **BiFunction** are also available.
 
+### Default methods:
 
+Interfaces in java 8 can have methods with default implementation. This gives ability to add additional functionalities to already published APIs.
 
-###Default methods:
-
-Interfaces in java 8 can have methods with default implementation. This gives ability to add additional functionalities to already published APIs. 
-
-```
+```java
 @FunctionalInterface
-public interface 
+public interface IApplyable {
+    // can have only one abstract method. More than one results in compilation error.
+    void apply();
+
+    // default method just for the sake of giving an example
+    default String getClassName() {
+        return "IApplyable";
+    }
+ 
+    // there can be more than one default method
+    default String appName() {
+        return "DEFAULT APP";
+    }
+}
+```
+
