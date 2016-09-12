@@ -1,5 +1,7 @@
 # Java 8 - lambda expressions
 
+---
+
 ### a\) Lambdas
 
 Lambdas are briefly and clearly expressed single method classes that represent a behavior.  They can either be assigned to a variable or passed around to other methods just like we pass data as arguments.
@@ -26,6 +28,8 @@ Lambdas are briefly and clearly expressed single method classes that represent a
 Type of any lambda is a functional interface.
 
 Functional Interface is a special interface with one and only one abstract method. It's recommended to use @FunctionalInterface annotation with the interface.
+
+---
 
 ### b\) Functional interface:
 
@@ -89,6 +93,8 @@ public Integer applyBehavior(IApplyable<Integer> applyable, Integer i1, Integer 
 
 **BiPredicate**, **BiConsumer** and **BiFunction** are also available.
 
+---
+
 ### c\) Default methods:
 
 Interfaces in java 8 can have methods with default implementation. This gives ability to add additional functionalities to already published APIs.
@@ -123,9 +129,12 @@ class C implements A, B {
     }
 } 
 ```
-
+---
 ### d\) Method References
 
+
+
+---
 References:
 
 * [whats-new-in-java-8-lambdas](https://www.oreilly.com/learning/whats-new-in-java-8-lambdas)
