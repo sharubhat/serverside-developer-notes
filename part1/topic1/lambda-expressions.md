@@ -127,6 +127,7 @@ class C implements A, B {
 ### d\) Method References
 
 References:
-[whats-new-in-java-8-lambdas](https://www.oreilly.com/learning/whats-new-in-java-8-lambdas)
-[Java 8 SE for the Really Impatient](https://www.amazon.com/Java-SE8-Really-Impatient-Course/dp/0321927761)
+
+* [whats-new-in-java-8-lambdas](https://www.oreilly.com/learning/whats-new-in-java-8-lambdas)
+* [Java 8 SE for the Really Impatient](https://www.amazon.com/Java-SE8-Really-Impatient-Course/dp/0321927761)
 
