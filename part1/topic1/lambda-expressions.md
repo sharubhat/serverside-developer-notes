@@ -103,16 +103,24 @@ public interface IApplyable {
     default String getClassName() {
         return "IApplyable";
     }
- 
+
     // there can be more than one default method
     default String appName() {
         return "DEFAULT APP";
     }
 }
 ```
-If interface A has a default method apply(), interface B extends A and also provides a default method apply(), the class that implements both A and B inherits apply() method of B as it's the closest.
 
-However, if both A and B provide apply() method and both interfaces are unrelated and a class C implements both of these interfaces, it's **must** provide an implementation of apply() method. If apply method of C has same implementation of B, then C can reference to B's method as B.super.apply();
+If interface A has a default method apply\(\), interface B extends A and also provides a default method apply\(\), the class that implements both A and B inherits apply\(\) method of B as it's the closest.
+
+However, if both A and B provide apply\(\) method and both interfaces are unrelated and a class C implements both of these interfaces, it's **must** provide an implementation of apply\(\) method. If apply method of C has same implementation of B, then C can reference to B's method as B.super.apply\(\);
 
 ```java
 class C implements A, B {
+    @Override
+    public T apply() {
+         return B.super.apply();
+    }
+} 
+```
+
