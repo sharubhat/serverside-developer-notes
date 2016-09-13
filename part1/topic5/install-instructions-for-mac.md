@@ -7,7 +7,13 @@ Could not find a brew formula for installing latest Apache Flink, so going with 
 1. Download Flink for Hadoop 2. This is required if we want Flink to be able to deal with data on Hadoop.
 2. tar xzf flink-*.tgz
 3. Copy flink-1.1.2 (the latest available version while making these notes) to /usr/Cellar/apache-flink. This is not necessory, however I like to keep the project along with other brew installed softwares.
-4. Start Flink : bin/start-local.sh
+4. Create two aliases in ~/.profile
+```
+alias start-flink='/usr/local/Cellar/apache-flink/1.1.2/bin/start-local.sh'alias stop-flink='/usr/local/Cellar/apache-flink/1.1.2/bin/stop-local.sh'
+$ source ~/.profile
+```
+
+4. Start Flink : start-flink
 5. Check the JobManager’s web frontend at http://localhost:8081 and make sure everything is up and running.
 
 ### Installation verification instructions
