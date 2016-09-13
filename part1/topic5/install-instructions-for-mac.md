@@ -22,3 +22,5 @@ wget -O hamlet.txt http://www.gutenberg.org/cache/epub/1787/pg1787.txt
 ```
 3. Step 2 should generate wordcount-result.txt file in working directory.
 
+### Getting started with IDE debugging
+Refer to [this](http://dataartisans.github.io/flink-training/devEnvSetup.html) article.
