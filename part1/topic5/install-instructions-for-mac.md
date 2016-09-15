@@ -5,9 +5,9 @@
 Could not find a brew formula for installing latest Apache Flink, so going with a manual installation.
 
 1. Download Flink for Hadoop 2. This is required if we want Flink to be able to deal with data on Hadoop.
-2. tar xzf flink-\*.tgz
-3. Copy flink-1.1.2 \(the latest available version while making these notes\) to \/usr\/Cellar\/apache-flink. This is not necessory, however I like to keep the project along with other brew installed softwares.
-4. Create two aliases in ~\/.profile
+2. tar xzf flink-*.tgz
+3. Copy flink-1.1.2 (the latest available version while making these notes) to /usr/Cellar/apache-flink. This is not necessory, however I like to keep the project along with other brew installed softwares.
+4. Create two aliases in ~/.profile
 
   ```
   alias start-flink='/usr/local/Cellar/apache-flink/1.1.2/bin/start-local.sh'
@@ -30,7 +30,9 @@ Could not find a brew formula for installing latest Apache Flink, so going with 
   ```
 
 2. Test WordCount program in current working directory
-     .\/bin\/flink run .\/examples\/streaming\/WordCount.jar --input file:\/\/`pwd`\/hamlet.txt --output file:\/\/`pwd`\/wordcount-result.txt
+```
+./bin/flink run ./examples/streaming/WordCount.jar --input file://`pwd`/hamlet.txt --output file://`pwd`/wordcount-result.txt
+```
 
 3. Step 2 should generate wordcount-result.txt file in working directory.
 
