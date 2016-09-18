@@ -41,5 +41,3 @@ Could not find a brew formula for installing latest Apache Flink, so going with 
 
 Refer to [this](http://dataartisans.github.io/flink-training/devEnvSetup.html) article.
 
-Also refer to Stream Processing - [simple walkthrough](http://data-artisans.com/robust-stream-processing-flink-walkthrough/)
-
