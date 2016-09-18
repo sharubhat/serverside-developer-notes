@@ -25,4 +25,4 @@ This is because there is a bug in influxdb-java client. It tries to create a tab
 influxDB.write(dataBaseName, "one_day_only", p);
 ```
 * Set up grafana query
-![](/assets/Screen Shot 2016-09-18 at 10.44.26 AM.png)
+![](/assets/grafana-pressure.png)
