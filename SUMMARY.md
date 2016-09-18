@@ -18,5 +18,6 @@
   * [Topic IV - Storm](part5/topic4/README.md)
   * [Topic V - Flink](part5/topic5/README.md)
     * [Running Flink on macOS](part5/topic5/install-instructions-for-mac.md)
+    * [Oscon-Stream Processing Demo](part5/topic5/oscon-stream-processing.md)
 
 
