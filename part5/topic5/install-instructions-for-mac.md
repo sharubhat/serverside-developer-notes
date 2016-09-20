@@ -39,5 +39,5 @@ Could not find a brew formula for installing latest Apache Flink, so going with 
 
 ### Getting started with IDE debugging
 
-Refer to [this](http://dataartisans.github.io/flink-training/devEnvSetup.html) article.
+Refer to [this](http://dataartisans.github.io/flink-training/devEnvSetup.html) article which explains how to create a maven project and how to configure IDE.
 
