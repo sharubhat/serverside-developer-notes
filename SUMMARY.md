@@ -19,5 +19,6 @@
   * [Topic V - Flink](part5/topic5/README.md)
     * [Running Flink on macOS](part5/topic5/install-instructions-for-mac.md)
     * [Oscon-Stream Processing Demo](part5/topic5/oscon-stream-processing.md)
+    * [DataStream API Basics](part5/topic5/datastream-api-basics.md)
 
 
