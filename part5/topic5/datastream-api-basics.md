@@ -78,3 +78,12 @@ env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
     * Could be any data sink or console; print in above example.
 * Execution.
 
+##Tuples
+* Easiest and most efficient way to encapsulate data in Flink.
+* Java library supports Tuple1 to Tuple25.
+* Zero base index
+```java
+Tuple2<String, String> person = new Tuple<>("Sharath", "Bhat");
+String firstName = person.f0;
+String lastName = person.f1; etc
+```
