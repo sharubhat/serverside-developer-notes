@@ -4,19 +4,20 @@
 
 * On mac
 
-  ```shell
+  ```bash
   $ brew install memcached
   $ memcached -p 11211
   ```
 
 * On linux as root
 
-  ```shell
+  ```bash
   $ yum install memcached
   $ /etc/init.d/memcached start/stop/status
 
   Config file location
   $ cat /etc/sysconfig/memcached
   ```
+
 
 
