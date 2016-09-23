@@ -7,7 +7,7 @@
     * [String](part1/topic1/string-in-java.md)
     * [Lambda Expressions](part1/topic1/lambda-expressions.md)
   * Topic II - Concurrency   
-    * [Multithreading](part1/topic2/multithreading.md)
+    * Multithreading
 * Part II - Design Patterns
 * Part III - Unix
 * Part IV - Scala
