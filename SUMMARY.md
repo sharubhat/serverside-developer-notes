@@ -22,3 +22,4 @@
     * [DataStream API Basics](part5/topic5/datastream-api-basics.md)
 * [Part VI - Performance etc](part6/topic1/README.md)
     * [memcached](part6/topic1/memcached.md)
+    * [Micro batching vs real streaming](part6/topic1/micro-batching-vs-real-streaming.md)
