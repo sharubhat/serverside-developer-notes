@@ -1,0 +1,7 @@
+# Micro-batching vs real streaming
+
+These are some random notes of what I came across while reading about various topics.
+
+* Kafka Producer allows to send message batches. Suppose that due to network roundtrip times, it takes 2ms to send a single Kafka message. By sending one message at a time, we have latency of 2ms and throughput of 500 messages per second. But suppose that we are in no big hurry, and are willing to wait few milliseconds and send a larger batch – lets say we decided to wait 8ms and managed to accumulate 1000 messages. Our latency is now 10ms, but our throughput is up to 100,000 messages per second! Thats the main reason I love microbatches so much. By adding a tiny delay, and 10ms is usually acceptable even for financial applications, our throughput is 200 times greater. This type of trade-off is not unique to Kafka, btw. Network and storage subsystem use this kind of “micro batching”  all the time. 
+
+    Sometimes latency and throughput interact in even funnier ways. One day Ted Malaska complained that with Flafka, he can get 20ms latency when sending 100,000 messages per second, but huge 1-3s latency when sending just 100 messages a second. This made no sense at all, until we remembered that to save CPU, if Flafka doesn’t find messages to read from Kafka it will back off and retry later. Backoff times started at 0.5s and steadily increased. - [Original article](http://ingest.tips/2015/07/19/tips-for-improving-performance-of-kafka-producer/)
