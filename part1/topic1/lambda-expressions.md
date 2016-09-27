@@ -131,6 +131,17 @@ class C implements A, B {
 ```
 ---
 ### d\) Method References
+Lambda expression like line -> System.out.println(line); can be expressed as System.out::println. Such an expression is called method reference. The :: operator separates the method name from name of the class or an object. There are three principal cases.
+* object::instanceMethod
+* Class::staticMethod
+* Class::instanceMethod
+
+In first two cases, the method reference is equivalent to a lambda expression that supplies the parameters of the method. E.g.: Math::pow is equivalent to (x, y) -> Math.pow(x, y).
+
+The third case, the first parameter becomes the target of the method. E.g: String::compareToIngoreCase is same as (x, y) -> x.compareToIngoreCase(y).
+
+When there are multiple overloaded methods with the same name, the compiler will try to find from the context which one you mean. For example, there are two versions of the Math.max method, one for integers and one for double values. Which one gets picked depends on the method parameters of the functional interface to which Math::max is converted. Just like lambda expressions, method references don’t live in isolation. They are always turned into instances of functional interfaces.
+
 
 
 
