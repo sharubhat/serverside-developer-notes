@@ -112,6 +112,30 @@ public class StreamingJob {
 
 * **Execution**.
 
+* **Distribution Strategies**
+
+  * The following let developer control how the data should be distributed between the transformations.
+    * Forward: Only local communication
+       ```java
+          streams.forward();
+       ```
+    * Rebalance: Round-robin partitioning
+       ```java
+          streams.rebalance();
+        ```
+    * Partition by hash
+       ```java
+          streams.partitionByHash(...);
+       ```
+    * Custom partitioning
+       ```java
+          streams.partitionCustom(...);
+       ```
+    * Broadcast: Broadcast to all nodes
+       ```java
+          streams.broadcast();
+       ```
+
 ## Tuples
 
 * Easiest and most efficient way to encapsulate data in Flink.
