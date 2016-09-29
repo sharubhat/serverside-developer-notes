@@ -94,7 +94,8 @@ public class StreamingJob {
   * Transformations could be creating 
     * map which accepts one object and returns one object or 
     * flatMap that takes one object and produces zero, one ore more objects or 
-    * filter, keyBy, reduce, fold, timeWindow, sum etc.
+    * keyBy - helps partitioning the data, i.e. all elements with same key are processed by same operator. keyBy takes an integer that is the index of the entry in Tuple.
+    * filter, reduce, fold, timeWindow, sum etc.
 
 
 * **User functions**
