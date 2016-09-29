@@ -90,7 +90,8 @@ public class StreamingJob {
 
 * **Define transformations**
 
-  * This is where the data transformation logic is defined. Transformations could be creating map which accepts one object and returns one object or flatMap that takes one object and produces zero, one ore more objects, filter, keyBy, reduce, fold, timeWindow, sum etc.
+  * This is where the data transformation logic is defined. 
+  * Transformations could be creating map which accepts one object and returns one object or flatMap that takes one object and produces zero, one ore more objects, filter, keyBy, reduce, fold, timeWindow, sum etc.
 
 
 * **User functions**
