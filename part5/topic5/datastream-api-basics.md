@@ -149,4 +149,6 @@ public class StreamingJob {
 
 ## Keyed Streams
 
-* keyBy() partitions Datastreams on keys. keys are extracted from each element
+* keyBy() partitions Datastreams on keys. keys are extracted from each element.
+* Key types must be comparable.
+* Composite types can be used as keys, but all fields must be key types.
