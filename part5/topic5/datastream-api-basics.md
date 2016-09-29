@@ -94,7 +94,7 @@ public class StreamingJob {
   * Transformations could be creating 
     * map which accepts one object and returns one object or 
     * flatMap that takes one object and produces zero, one ore more objects or 
-    * keyBy - helps partitioning the data, i.e. all elements with same key are processed by same operator. keyBy takes an integer that is the index of the entry in Tuple.
+    * keyBy - helps partitioning the data, i.e. all elements with same key are processed by same operator. keyBy takes an integer that is the index of the entry in Tuple or a String that is the field name.
     * reduce and fold - reduce conceptually applies an operation such as addition to two arguments. Reduce on a list first applies reduce to first two elements, then applies reduce to result of earlier reduce and next element in the array and so on till all elements are exhausted whereas fold does the same thing but fold starts with an initial value that is supplied as argument.
       * When it comes to streams, reduce and fold can only be used with keyed or windowed streams only.
     * filter, timeWindow, sum etc.
