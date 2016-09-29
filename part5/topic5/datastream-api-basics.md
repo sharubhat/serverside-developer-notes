@@ -147,4 +147,6 @@ public class StreamingJob {
   String lastName = person.f1; etc
   ```
 
+## Keyed Streams
 
+* keyBy() partitions Datastreams on keys. keys are extracted from each element
