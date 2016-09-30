@@ -24,3 +24,4 @@
 * [Part VI - Performance etc](part6/README.md)
     * [memcached](part6/topic1/memcached.md)
     * [Micro batching vs real streaming](part6/topic1/micro-batching-vs-real-streaming.md)
+    * [Generating test data](http://www.skorks.com/2010/03/how-to-quickly-generate-a-large-file-on-the-command-line-with-linux/)
