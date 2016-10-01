@@ -10,7 +10,7 @@ Most of these points are from dataartisans training slides. However I am jotting
 ### Types of Windows
 
 * Tumbling Windows - Aligned, fixed length, non-overlapping windows.
-* Sliding Windows - Aligned, fixed length but overlapping windows also known as rolling windows.
+* Sliding Windows - Aligned, fixed length but overlapping windows.
 * Session Windows - Non-aligned\(session window of one user need not align with another user in time axis\), variable length windows with possible session gap for a single user.
 
 ### Specifying time window
