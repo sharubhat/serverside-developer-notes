@@ -1,6 +1,6 @@
 # memcached installations and usage
 
-### Installation on mac and redhat\/centos
+### Installation on mac and redhat or centos
 
 * On mac
 
