@@ -18,9 +18,10 @@
   * Topic IV - Storm
   * Topic V - Flink
     * [Running Flink on macOS](part5/topic5/install-instructions-for-mac.md)
-    * [Oscon-Stream Processing Demo](part5/topic5/oscon-stream-processing.md)
     * [DataStream API Basics](part5/topic5/datastream-api-basics.md)
+    * [DataStream Time and Windows](part5/topic5/datastream-time-and-windows.md)
     * [Reference Links](part5/topic5/direct-flink-doc-references.md)
+    * [Oscon-Stream Processing Demo](part5/topic5/oscon-stream-processing.md)
 * [Part VI - Performance etc](part6/README.md)
     * [memcached](part6/topic1/memcached.md)
     * [Micro batching vs real streaming](part6/topic1/micro-batching-vs-real-streaming.md)
