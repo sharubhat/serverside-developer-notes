@@ -26,12 +26,12 @@ Could not find a brew formula for installing latest Apache Flink, so going with 
 
 1. Download test data
 
-  ```
+  ```bash
   $ wget -O hamlet.txt http://www.gutenberg.org/cache/epub/1787/pg1787.txt
   ```
 
 2. Test WordCount program in current working directory
-```
+```bash
 $ flink run ./examples/streaming/WordCount.jar --input file://`pwd`/hamlet.txt --output file://`pwd`/wordcount-result.txt
 ```
 
@@ -55,7 +55,7 @@ start-flink-cluster adds alias ip address for localhost which loopback locally.
 2. Update flink-conf.yaml and set taskmanager.numberOfTaskSlots: 3
 
 3. Add following ip address to conf/slaves
-```
+```bash
 127.0.0.2
 127.0.0.3
 127.0.0.4
