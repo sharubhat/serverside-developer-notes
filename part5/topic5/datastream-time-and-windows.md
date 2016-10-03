@@ -101,3 +101,7 @@ public static class CountBySalary implements WindowFunction<
 }
 
 ```
+
+Read more at:
+
+[Stream Windows in Flink](http://flink.apache.org/news/2015/12/04/Introducing-windows.html)
