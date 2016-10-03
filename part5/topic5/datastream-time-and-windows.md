@@ -105,3 +105,17 @@ public static class CountBySalary implements WindowFunction<
 Read more at:
 
 [Stream Windows in Flink](http://flink.apache.org/news/2015/12/04/Introducing-windows.html)
+
+[The power of event time and out of order stream processing](http://data-artisans.com/how-apache-flink-enables-new-streaming-applications-part-1/)
+
+[The world beyond batch](https://www.oreilly.com/ideas/the-world-beyond-batch-streaming-101)
+
+[Essential Guide to Streaming-first Processing](https://www.mapr.com/blog/essential-guide-streaming-first-processing-apache-flink)
+
+[Session Windowing in Flink](http://data-artisans.com/session-windowing-in-flink/)
+
+[Event Time](https://ci.apache.org/projects/flink/flink-docs-release-1.1/apis/streaming/event_time.html)
+
+[Generating Timestamps / Watermarks](https://ci.apache.org/projects/flink/flink-docs-release-1.1/apis/streaming/event_timestamps_watermarks.html)
+
+[Windows](https://ci.apache.org/projects/flink/flink-docs-release-1.1/apis/streaming/windows.html)
