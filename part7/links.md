@@ -6,11 +6,15 @@
 
 3. [Why-is-heap-sort-used](https://www.quora.com/Why-is-heap-sort-used/answer/Pawan-Bhadauria)
 
+4. [Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+
+5. [get-that-job-at-facebook](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
+
 I haven't yet read the contents of following links. But noting them here for future reading/clean up.
 
-https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920
 
-http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
+
+
 
 http://www.palantir.com/2011/09/how-to-rock-an-algorithms-interview/
 
