@@ -12,6 +12,8 @@
 
 6. [Hired In Tech](https://www.hiredintech.com)
 
+7. [Java notes](https://www.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html)
+
 # System Design
 
 1. [System design interview guide](https://github.com/checkcheckzz/system-design-interview)
