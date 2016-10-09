@@ -1,0 +1,26 @@
+# Links to some of the best info found on internet
+
+1. [How-do-I-start-learning-or-strengthen-my-knowledge-of-data-structures-and-algorithms](https://www.quora.com/How-do-I-start-learning-or-strengthen-my-knowledge-of-data-structures-and-algorithms/answer/Pawan-Bhadauria)
+
+2. [How can a max heap be converted to a min heap efficiently?](https://www.quora.com/How-can-a-max-heap-be-converted-to-a-min-heap-efficiently)
+
+3. [Why-is-heap-sort-used](https://www.quora.com/Why-is-heap-sort-used/answer/Pawan-Bhadauria)
+
+
+https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920
+
+http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
+
+http://www.palantir.com/2011/09/how-to-rock-an-algorithms-interview/
+
+https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.wehh19eja
+
+http://www.hiringlibrary.com/year-2015-version-how-to-crack-the-google-interview/
+
+
+http://paultyma.blogspot.ca/2007/03/howto-pass-silicon-valley-software.html
+
+
+http://www.cforcoding.com/2012/01/interview-programming-problems-done.html
+
+
