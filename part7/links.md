@@ -20,6 +20,7 @@
 
 3. [Palantir blog](https://www.palantir.com/2011/10/how-to-ace-a-systems-design-interview/)
 
+4. [Quora: How do I prepare to answer design questions in a technical interview?](https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview)
 
 #Others
 
