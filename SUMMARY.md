@@ -28,3 +28,6 @@
     * [Generating test data](http://www.skorks.com/2010/03/how-to-quickly-generate-a-large-file-on-the-command-line-with-linux/)
     * [Load testing using tsung](part6/topic1/load-testing-using-tsung.md)
 * [Part VI - Algorithms and Data Structures](part7/README.md)
+  * Topic I - Big O
+  * Topic II - Sorting
+    * [Insertion Sort](part7/topic2/insertion-sort.md)
