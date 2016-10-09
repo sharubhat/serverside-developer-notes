@@ -10,6 +10,22 @@
 
 5. [Get that job at Facebook](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
 
+6. [Hired In Tech](https://www.hiredintech.com)
+
+# System Design
+
+1. [System design interview guide](https://github.com/checkcheckzz/system-design-interview)
+
+2. [Gainlo blog on system design](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
+
+3. [Palantir blog](https://www.palantir.com/2011/10/how-to-ace-a-systems-design-interview/)
+
+
+#Others
+
+
+
+
 I haven't yet read the contents of following links. But noting them here for future reading/clean up.
 
 
