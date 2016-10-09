@@ -8,7 +8,7 @@
 
 4. [Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 
-5. [get-that-job-at-facebook](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
+5. [Get that job at Facebook](https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920)
 
 I haven't yet read the contents of following links. But noting them here for future reading/clean up.
 
