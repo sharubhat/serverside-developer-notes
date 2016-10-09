@@ -6,6 +6,7 @@
 
 3. [Why-is-heap-sort-used](https://www.quora.com/Why-is-heap-sort-used/answer/Pawan-Bhadauria)
 
+I haven't yet read the contents of following links. But noting them here for future reading/clean up.
 
 https://www.facebook.com/notes/facebook-engineering/get-that-job-at-facebook/10150964382448920
 
