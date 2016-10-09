@@ -31,3 +31,4 @@
   * Topic I - Big O
   * Topic II - Sorting
     * [Insertion Sort](part7/topic2/insertion-sort.md)
+    * [Merge Sort](part7/topic2/merge-sort-divide-and-conquer.md)
