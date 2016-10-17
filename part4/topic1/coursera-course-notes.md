@@ -11,3 +11,5 @@ x = 2               // this will result in error as 2 is of type Int
 var y: Int = null    // now the type of y will be Int and not inferred as Null
 y = 2                // Success
 ``` 
+
+4. Scala string is same as java.lang.String. However Scala string has over 100 methods that are not available in Java. So refer to Scaladocs before coming up with a complex operation on Strings.
