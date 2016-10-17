@@ -10,7 +10,7 @@
         * Multithreading
 * Part II - Design Patterns
 * Part III - Unix
-* Part IV - Scala
+* [Part IV - Scala](part4/README.md)
 * Part V - Analytics
     * Topic I - Kafka
     * Topic II - Flume
