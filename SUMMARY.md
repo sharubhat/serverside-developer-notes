@@ -11,7 +11,7 @@
 * Part II - Design Patterns
 * Part III - Unix
 * [Part IV - Scala](part4/README.md)
-    * [Coursera course notes](part4/topic1/coursera-course-notes.md)
+    * [Coursera Course notes](part4/topic1/coursera-course-notes.md)
 * Part V - Analytics
     * Topic I - Kafka
     * Topic II - Flume
