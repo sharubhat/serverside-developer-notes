@@ -15,3 +15,5 @@ y = 2                // Success
 * Scala string is same as java.lang.String. However Scala string has over 100 methods that are not available in Java. So refer to Scaladocs before coming up with a complex operation on Strings.
 
 * The ++, -- operators do not exist in Scala. Use += instead: counter += 1;
+
+* An Int is automatically converted to a RichInt when one of it's method is needed. e.g.: 1.to(10) automatically converts 1 to a RichInt type and applys '_to()_' method on it.
