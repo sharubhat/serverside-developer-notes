@@ -12,7 +12,7 @@ var y: Int = null    // now the type of y will be Int and not inferred as Null
 y = 2                // Success
 ``` 
 
-* Scala string is same as java.lang.String. However Scala string has over 100 methods that are not available in Java. So refer to Scaladocs before coming up with a complex operation on Strings.
+* Scala string is same as java.lang.String. However Scala string has over 100 methods that are not available in Java. So refer to Scaladocs before coming up with a complex operation on Strings. Look for StringOps in Scala docs.
 ```Scala
 "Hello".intersect("World")    // gives 'lo'
 ```
