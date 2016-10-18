@@ -28,4 +28,5 @@ For methods with only one parameter, you could write as below
 1.to(10) OR 1 to 10. This is called infix notation.
 Conversly, 1 + 2 can also be expressed as 1.+(2) althought it's a bit weird.
 ```
-* 
+* Scala has both functions and methods. Methods operate on Objects where as functions don't operate on Objects, they are more like static methods. However there are static methods in Scala, the ones that are inherited from Java classes. But usually they are not written.
+
