@@ -28,3 +28,4 @@ For methods with only one parameter, you could write as below
 1.to(10) OR 1 to 10. This is called infix notation.
 Conversly, 1 + 2 can also be expressed as 1.+(2) althought it's a bit weird.
 ```
+* 
