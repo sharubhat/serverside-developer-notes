@@ -13,6 +13,9 @@ y = 2                // Success
 ``` 
 
 * Scala string is same as java.lang.String. However Scala string has over 100 methods that are not available in Java. So refer to Scaladocs before coming up with a complex operation on Strings.
+```Scala
+"Hello".intersect("World")    // gives 'lo'
+```
 
 * The ++, -- operators do not exist in Scala. Use += instead: counter += 1;
 
