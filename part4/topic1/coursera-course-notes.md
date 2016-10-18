@@ -30,6 +30,13 @@ Conversly, 1 + 2 can also be expressed as 1.+(2) althought it's a bit weird.
 ```
 * Scala has both functions and methods. Methods operate on Objects where as functions don't operate on Objects, they are more like static methods. However there are static methods in Scala, the ones that are inherited from Java classes. But usually they are not written.
 
-* When invoking a method on an object, you use paranthesis around the object if the method is a mutator, not otherwise.
-e.g: "Hello".distinct
+* When invoking a method on an object, you use paranthesis in front of the method if the method is a mutator, not otherwise.
+```Scala
+e.g: "Hello".distinct        // gives Helo
+```
+
+* Method call apply need not be specified.
+```Scala
+e.g: "Hello".apply(4) and "Hello"(4) are both same and yield 'o'
+
 
