@@ -46,3 +46,4 @@ Since if has a value, it needs to have a type. In case the if and else are of di
 if(x > 0) "positive" else -1        // type of if is 'Any'
 ```
 
+* Blocks are also expressions in Scala. The result of block is the result of last expression within the block.
