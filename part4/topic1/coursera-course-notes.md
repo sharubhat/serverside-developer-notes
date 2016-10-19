@@ -39,4 +39,4 @@ e.g: "Hello".distinct        // gives Helo
 ```Scala
 e.g: "Hello".apply(4) and "Hello"(4) are both same and yield 'o'
 
-
+* Unlike in java or any other language, if is an expression with a value. The result of if can be assigned to a variable.
