@@ -40,3 +40,8 @@ e.g: "Hello".distinct        // gives Helo
 e.g: "Hello".apply(4) and "Hello"(4) are both same and yield 'o'
 
 * Unlike in java or any other language, if is an expression with a value. The result of if can be assigned to a variable.
+Since if has a value, it needs to have a type. In case the if and else are of different type, the type of expression will be super type. 
+
+```Scala
+if(x > 0) "positive" else -1        // type of if is 'Any'
+```
