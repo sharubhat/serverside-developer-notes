@@ -47,3 +47,11 @@ if(x > 0) "positive" else -1        // type of if is 'Any'
 ```
 
 * Blocks are also expressions in Scala. The result of block is the result of last expression within the block.
+
+* There is no three part for loop in scala 
+```Scala
+for(int i = 0; i < n; i++)    // compile error
+instead do
+for(i <- 1 to n)
+```
+
