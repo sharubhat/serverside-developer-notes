@@ -55,4 +55,6 @@ instead do
 for(i <- 1 to n)
 ```
 
-* Scala supports named parameters like Python.
+* Scala supports named parameters like Python. You can name the parameters when calling the function. Advantage is that the parameters can be out of order and Scala takes care of arranging them at run time.
+
+* Scala also supports Default Arguments.
