@@ -55,3 +55,4 @@ instead do
 for(i <- 1 to n)
 ```
 
+* Scala supports named parameters like Python.
