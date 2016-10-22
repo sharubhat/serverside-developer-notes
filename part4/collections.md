@@ -17,7 +17,7 @@ All entries are initialized to 0 in above example.
 
 * Use paranthesis to access the entries instead of square braces like in Java.
 ```Scala
-E.g.:    nums(0) = 22 or val n = nums(2)
+    E.g.:    nums(0) = 22 or val n = nums(2)
 ```
 * Looping throught the elements or looping using indices.
 
