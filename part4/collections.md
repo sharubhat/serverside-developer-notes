@@ -55,4 +55,4 @@ for(i <- b) print(i + ", ")
 
 ```
 
-* 
+* Use toArray and toBuffer methods to go back and forth between Array and ArrayBuffer objects.
