@@ -61,7 +61,6 @@ for(i <- b) print(i + ", ")
 ```Scala
 Array(1, 2, 3).mkString(", ")
             // prints String = 1 , 2 , 3
-
 Array(1, 2, 3).mkString("[", ", ", "]")
             // prints String = [1, 2, 3]
 ```
