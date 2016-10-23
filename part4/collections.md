@@ -38,10 +38,18 @@ val b = new ArrayBuffer[Int]()
 b.append(10)
 b += 22
 b.append(20, 30)
+
+// appending more than one element, type gets inferred
 b += (21, 22)
+
+// appending ArrayBuffer to another ArrayBuffer using appendAll method
 b.appendAll(ArrayBuffer[Int](11, 12, 14))
-b ++= ArrayBuffer[Int](100, 200)
-b ++= Array(101, 201)
+
+// appending ArrayBuffer to another ArrayBuffer using ++ operator
+b ++= ArrayBuffer[Int](100, 200)    
+
+// appending array to ArrayBuffer
+b ++= Array(101, 201)    
 
 for(i <- b) print(i + ", ")
 
