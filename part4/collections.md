@@ -59,8 +59,10 @@ for(i <- b) print(i + ", ")
 
 * Array can be printed using make string - **mkString** method
 ```Scala
-Array(1, 2, 3).mkString(" , ")
+Array(1, 2, 3).mkString(", ")
             // prints String = 1 , 2 , 3
+Array(1, 2, 3).mkString("[", ", ", "]")
+            // prints String = [1, 2, 3]
 ```
 
 * 
