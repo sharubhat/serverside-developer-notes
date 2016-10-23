@@ -62,3 +62,5 @@ for(i <- b) print(i + ", ")
 Array(1, 2, 3).mkString(" , ")
             // prints String = 1 , 2 , 3
 ```
+
+* 
