@@ -16,6 +16,7 @@ val names = new Array("David", "Ben")
 ```
 
 * Use paranthesis to access the entries instead of square braces like in Java.
+
 ```Scala
 E.g.:    nums(0) = 22 or val n = nums(2)
 ```
