@@ -77,6 +77,7 @@ Array(1, 2, 3).mkString("[", ", ", "]")
 val scores = Map("Van" -> 5, "Sha" -> 4)val mscores = scala.collection.mutable.Map("Van" -> 5, "Sha" -> 4)
 
 Adding and removing entries:
-mscores -= "Sha"mscores += ("Vin" -> 7)
+mscores -= "Sha"
+mscores += ("Vin" -> 7)
 
 ```
