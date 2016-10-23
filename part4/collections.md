@@ -3,6 +3,7 @@
 ---
 
 * Declaring an array usese type Array.
+
 ```Scala
 val nums = new Array[Int](10)
 ```
@@ -11,6 +12,7 @@ All entries are initialized to 0 in above example.
 * Int array is directly mapped to primitive int[] in Java.
 
 * Creating array with initial values
+
 ```Scala
 val names = new Array("David", "Ben")
 ```
