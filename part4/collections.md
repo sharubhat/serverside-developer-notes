@@ -56,3 +56,9 @@ for(i <- b) print(i + ", ")
 ```
 
 * Use toArray and toBuffer methods to go back and forth between Array and ArrayBuffer objects.
+
+* Array can be printed using make string - **mkString** method
+```Scala
+Array(1, 2, 3).mkString(" , ")
+            // prints String = 1 , 2 , 3
+```
