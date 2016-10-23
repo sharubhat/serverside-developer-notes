@@ -33,6 +33,7 @@ Note: 0 to nums.length includes nums.length whereas 0 until nums.length excludes
 * ArrayBuffer class in Scala is equivalent of ArrayList in Java. However it's mutable, take extra care while using it.
 
 Some examples of creation, append or +, appendAll or ++
+
 ```Scala
 val b = new ArrayBuffer[Int]()
 b.append(10)
