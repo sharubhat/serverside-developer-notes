@@ -30,5 +30,5 @@ for(i <- 0 until nums.length)
 Note: 0 to nums.length includes nums.length whereas 0 until nums.length excludes nums.length
 ```
 
-* ArrayBuffer class in Scala is equivalent of ArrayList in Java. However it's mutable.
+* ArrayBuffer class in Scala is equivalent of ArrayList in Java. However it's mutable, take extra care while using it.
 
