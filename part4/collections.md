@@ -65,4 +65,8 @@ Array(1, 2, 3).mkString("[", ", ", "]")
             // prints String = [1, 2, 3]
 ```
 
-* 
+* Map by default is immutable. Mutable map declaration requires explicite specifying of package.
+```Scala
+val scores = Map("Van" -> 5, "Sha" -> 4)val mscores = scala.collection.mutable.Map("Van" -> 5, "Sha" -> 4)
+
+```
