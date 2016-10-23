@@ -41,6 +41,7 @@ b.append(20, 30)
 b += (21, 22)
 b.appendAll(ArrayBuffer[Int](11, 12, 14))
 b ++= ArrayBuffer[Int](100, 200)
+b ++= Array(101, 201)
 
 for(i <- b) print(i + ", ")
 
