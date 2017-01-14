@@ -4,7 +4,7 @@
 
 ### a\) Lambdas
 
-Lambdas are briefly and clearly expressed single method classes that represent a behavior.  They can either be assigned to a variable or passed around to other methods just like we pass data as arguments.
+Lambdas are briefly and clearly expressed single method abstract classes that represent a behavior.  They can either be assigned to a variable or passed around to other methods just like we pass data as arguments.
 
 **Examples:**
 
