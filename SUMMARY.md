@@ -36,7 +36,7 @@
   * Topic II - Sorting
     * [Insertion Sort](part7/topic2/insertion-sort.md)
     * [Merge Sort](part7/topic2/merge-sort-divide-and-conquer.md)
-* Part VII - Machine Learning
+* \[Part VII - Machine Learning\]\(part8/topic1/learning-problem.md\)
 
 
 
