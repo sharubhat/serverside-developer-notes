@@ -6,13 +6,17 @@ Well, I am going to learn python3. So this notes will be all about Python-3. BUT
 
 **Tools:**
 
-Will begin with IDLE that's supplied with python. Coming from java world, I am a fan of jetbrains products. So will soon switch to pycharm community edition. 
+Will begin with IDLE that's supplied with python. Coming from java world, I am a fan of jetbrains products. So will soon switch to pycharm community edition.
 
-Goal: Write a program that takes a boolean argument print and decides whether print or not the current time.
+Goal: Write a program that prints current time
 
+Create a file time.py and save the following contents.
 
+```py
+from datetime import datetime
 
+print(datetime.today())
+```
 
-
-
+If you are in IDLE, you could save and hit F5 to run this.
 
