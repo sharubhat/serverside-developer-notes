@@ -8,12 +8,13 @@
     * [Lambda Expressions](part1/topic1/lambda-expressions.md)
   * Topic II - Concurrency
     * Multithreading
-* Part II - Design Patterns
-* Part III - Unix
-* [Part IV - Scala](part4/README.md)
+* Part II - Python
+* Part III - Design Patterns
+* Part IV - Unix
+* [Part V - Scala](part4/README.md)
   * [Basics](part4/basics.md)
   * [Collections](part4/collections.md)
-* Part V - Analytics
+* Part VI - Analytics
   * Topic I - Kafka
   * Topic II - Flume
   * Topic III - Spark
@@ -26,17 +27,17 @@
     * [Oscon-Stream Processing Demo](part5/topic5/oscon-stream-processing.md)
   * Topic VI - R
     * [Reference Links](part5/topic6/reference-links.md)
-* [Part VI - Performance etc](part6/README.md)
+* [Part VII - Performance etc](part6/README.md)
   * [memcached](part6/topic1/memcached.md)
   * [Micro batching vs real streaming](part6/topic1/micro-batching-vs-real-streaming.md)
   * [Generating test data](http://www.skorks.com/2010/03/how-to-quickly-generate-a-large-file-on-the-command-line-with-linux/)
   * [Load testing using tsung](part6/topic1/load-testing-using-tsung.md)
-* [Part VI - Algorithms and Data Structures](part7/README.md)
+* [Part VIII - Algorithms and Data Structures](part7/README.md)
   * [Topic I - Complexity etc](part7/topic1/complexity-etc.md)
   * Topic II - Sorting
     * [Insertion Sort](part7/topic2/insertion-sort.md)
     * [Merge Sort](part7/topic2/merge-sort-divide-and-conquer.md)
-* [Part VII - Machine Learning](part8/README.md)
+* [Part IX - Machine Learning](part8/README.md)
   * [Topic I - Learning Problem](part8/topic1/learning-problem.md)
 
 
