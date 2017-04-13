@@ -2,7 +2,7 @@
 
 I need to decide whether to learn python2 or 3 by the time I finish this paragraph. The most confusing part is to decide whether to learn python2 or python3. From what I have read so far, they are not compatible with each other. Most of existing modules are in python2 as it's more popular but it's probably a good idea to move forward. **My goal is to get up and running quickly.**
 
-Well, I am going to learn **python3**. So this notes will be all about Python-3. BUT, if I run into serious issues and need to fall back to version2 midway, I may choose to do that. We developers spend most of our time solving problems. So I will keep these notes mostly problem statement, solution 
+Well, I am going to learn **python3**. So this notes will be all about Python-3. BUT, if I run into serious issues and need to fall back to version2 midway, I may choose to do that. We developers spend most of our time solving problems. So I will keep these notes mostly problem statement, solution model.
 
 **Tools:**
 
@@ -29,9 +29,7 @@ Python always starts at beginning of the file and executes the code line by line
 
 Python interpreter is also known as Python. The only difference compared to languages like Java is that python interpreter runs the code line by line and there is no notion of compiling entire source code into a class file.
 
-
-
-Lets now try something more then a 'hello world' style introductory program. 
+Lets now try something more then a 'hello world' style introductory program.
 
 **Problem 2: Write a program that takes an argument and prints current username if the argument is 'whoami'.**
 
