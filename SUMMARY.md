@@ -8,7 +8,8 @@
     * [Lambda Expressions](part1/topic1/lambda-expressions.md)
   * Topic II - Concurrency
     * Multithreading
-* Part II - Python
+* [Part II - Python](/part9/README.md)
+  * [Basics](/part9/basics.md)
 * Part III - Design Patterns
 * Part IV - Unix
 * [Part V - Scala](part4/README.md)
