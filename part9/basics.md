@@ -18,5 +18,5 @@ from datetime import datetime
 print(datetime.today())
 ```
 
-If you are in IDLE, you could save and hit F5 to run this.
+If you are in IDLE, you could save and hit F5 to run this. Or run `$python3 time.py` from command line.
 
