@@ -6,5 +6,13 @@ Well, I am going to learn python3. So this notes will be all about Python-3. BUT
 
 **Tools:**
 
-Will begin with IDLE that's supplied with python. Coming from java world, I am a fan of jetbrains products. So will soon switch to pycharm community edition.
+Will begin with IDLE that's supplied with python. Coming from java world, I am a fan of jetbrains products. So will soon switch to pycharm community edition. 
+
+Goal: Write a program that takes a boolean argument print and decides whether print or not the current time.
+
+
+
+
+
+
 
