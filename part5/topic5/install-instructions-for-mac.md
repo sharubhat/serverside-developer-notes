@@ -1,4 +1,4 @@
-# Installing Apache Flink on macOS
+# Installing Apache Flink on mac OS X
 
 ### Installation instructions
 

@@ -19,6 +19,7 @@
   * Topic I - Kafka
   * Topic II - Flume
   * [Topic III - Spark](part5/topic3/README.md)
+    * [Intro to Apache Spark](part5/topic3/intro.md)
   * Topic IV - Storm
   * Topic V - Flink
     * [Running Flink on macOS](part5/topic5/install-instructions-for-mac.md)
