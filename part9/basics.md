@@ -95,5 +95,9 @@ for ch in "Hello World":
     print(ch)
 ```
 
+Note: range\(5\) returns a list \[0, 1, 2, 3, 4\]
+
+
+
 
 
