@@ -43,6 +43,8 @@ import getpass
 
 if sys.argv[1] == 'whoami':
   print("Current user is " + getpass.getuser())
+elif sys.argv[1] == 'currentuser':
+  print("Current user is " + getpass.getuser())
 else:
   print("Invalid argument")
 ```
@@ -58,8 +60,11 @@ Few things to note here are,
 
 * logical and is 'and' instead of '&&' like in java
 * 'in' keyword allows you to check if a list contains given element
+* 'elif' is short for else if
 * len\(\) function returns length of a collection
 * there is no concept of declaring the type of a variable. They are inferred at runtime and can change when a value of different type is assigned to them.
+* ':' introduces a suite of code \(you heard it, block of code is called suite in python\)
+* parenthesis are not used in python to represent suits, indentation takes care of it
 * we fixed a bug in the first solution which would throw `IndexError: list index out of range` if no argument is passed to the program
 
 
