@@ -47,5 +47,20 @@ else:
   print("Invalid argument")
 ```
 
+What if you want to print the current user when the argument matches 'whoami' or 'currentuser'?
+
+```py
+keywords = ['whoami', 'currentuser']
+if len(sys.argv) > 1 and sys.argv[1] in keywords:
+```
+
+Few things to note here are,
+
+* logical and is 'and' instead of '&&' like in java
+* 'in' keyword allows you to check if a list contains given element
+* len\(\) function returns length of a collection
+* there is no concept of declaring the type of a variable. They are inferred at runtime and can change when a value of different type is assigned to them.
+* we fixed a bug in the first solution which would throw `IndexError: list index out of range` if no argument is passed to the program
+
 
 
