@@ -31,7 +31,7 @@ Python interpreter is also known as Python. The only difference compared to lang
 
 Lets now try something more then a 'hello world' style introductory program.
 
-**Problem 2: Write a program that takes an argument and prints current username if the argument is 'whoami'.**
+**Problem 2: Write a program that takes an argument and prints current username if the argument is 'whoami' or 'currentuser'.**
 
 I know this is a stupid example, but this will teach something. There are various ways to get current user and depending on OS and how the program is being run, the results can be inaccurate. Also there are a few ways to handle command line  argument, but that will be another post.
 
@@ -63,9 +63,37 @@ Few things to note here are,
 * 'elif' is short for else if
 * len\(\) function returns length of a collection
 * there is no concept of declaring the type of a variable. They are inferred at runtime and can change when a value of different type is assigned to them.
-* ':' introduces a suite of code \(you heard it, block of code is called suite in python\)
+* ':' introduces a suite of code \(you heard it, block of code is called suite in python\). suits are preceded by a colon \(:\), this is requirement of the language.
 * parenthesis are not used in python to represent suits, indentation takes care of it
 * we fixed a bug in the first solution which would throw `IndexError: list index out of range` if no argument is passed to the program
+
+**Problem 2.1: Print the current user's name twice with 3 seconds delay between the two print statements. **
+
+Again this silly requirement is to show the usage of 'for' keyword and sleep\(\) function from 'time' library. The only reason for introducing sleep here is it's something that comes up often while debugging and so is good to know. So the updated program would look like this.
+
+```py
+import getpass
+import sys
+import time
+
+keywords = ['whoami', 'currentuser']
+
+for i in [1, 2]:
+    if len(sys.argv) > 1 and sys.argv[1] in keywords:
+        print("Current user is " + getpass.getuser())
+    else:
+        print("Invalid argument")
+    time.sleep(3)
+```
+
+**Be careful about indentation**. Can't stress it enough.
+
+Since we are talking about for loop here, an example of string which is self explanatory.
+
+```py
+for ch in "Hello World":
+    print(ch)
+```
 
 
 
