@@ -20,6 +20,7 @@
   * Topic II - Flume
   * [Topic III - Spark](part5/topic3/README.md)
     * [Intro to Apache Spark](part5/topic3/intro.md)
+    * [Random notes](part5/topic3/random-notes.md)
   * Topic IV - Storm
   * Topic V - Flink
     * [Running Flink on macOS](part5/topic5/install-instructions-for-mac.md)
@@ -41,6 +42,7 @@
     * [Merge Sort](part7/topic2/merge-sort-divide-and-conquer.md)
 * [Part IX - Machine Learning](part8/README.md)
   * [Topic I - Learning Problem](part8/topic1/learning-problem.md)
-
+* [Part X - Functional Programming](part10/README.md)
+  * [Topic I - Introduction](part10/topic1/intro.md)
 
 
