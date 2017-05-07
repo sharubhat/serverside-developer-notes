@@ -22,15 +22,21 @@ Function f with input type A and output type B is represented as A => B read as 
 - a fancy way of saying, if you replace an expression in a program with it's value, the program remains unchanged.
 
 ### E.g:
-String reverse is referrentially transparent
-val x = "Hello"
-val y = x.reverse
-val z = x.reverse
+- String reverse is referrentially transparent
 
-y and z are same because reverse on input x produces exactly one output
+    val x = "Hello"
 
-StringBuilder's append is not referentially transparent
-val x = new StringBuilder("Hello")
-val y = x.append(" World") // y is "Hello World" and x is also "Hello World"
-val z = x.append(" World") // z and x are both "Hellow World World". Note that x is no longer same after the call to append. The output of append on x(function invoked multiple times) does not produce exactly one output
+    val y = x.reverse
+
+    val z = x.reverse
+
+    y and z are same because reverse on input x produces exactly one output
+
+- StringBuilder's append is not referentially transparent
+
+    val x = new StringBuilder("Hello")
+
+    val y = x.append(" World") // y is "Hello World" and x is also "Hello World"
+
+    val z = x.append(" World") // z and x are both "Hellow World World". Note that x is no longer same after the call to append. The output of append on x(function invoked multiple times) does not produce exactly one output
 
