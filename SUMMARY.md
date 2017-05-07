@@ -44,5 +44,6 @@
   * [Topic I - Learning Problem](part8/topic1/learning-problem.md)
 * [Part X - Functional Programming](part10/README.md)
   * [Topic I - Introduction](part10/topic1/intro.md)
+  * [Topic II - Getting Started](part10/topic1/getting-started.md)
 
 
