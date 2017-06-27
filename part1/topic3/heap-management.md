@@ -4,5 +4,7 @@
 * Within young generation, objects are aged by moving them back and forth in survivor spaces\(S0 or From Space and S1 or To Space\). The area where most allocations happen is called Eden Space.
 * Only long lived objects are promoted to Old generation.
 
-# ![](/assets/IMG_4427.JPG)Hotspot Garbage Collector
+# Hotspot Garbage Collector![](/assets/IMG_4427.JPG)
+
+
 
