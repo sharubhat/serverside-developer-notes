@@ -8,6 +8,8 @@
     * [Lambda Expressions](part1/topic1/lambda-expressions.md)
   * Topic II - Concurrency
     * Multithreading
+  * Topic III - Garbage Collection and Tuning
+    * [Heap Management](part1/topic3/heap-management.md)
 * [Part II - Python](/part9/README.md)
   * [Basics](/part9/basics.md)
 * Part III - Design Patterns
