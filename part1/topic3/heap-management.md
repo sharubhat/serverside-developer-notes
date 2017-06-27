@@ -1,4 +1,4 @@
-# Hotsport Garbage Collector
+# Hotspot Garbage Collector
 
 ## Need for a Generational Heap:
 - Most objects die young. Hence they can be aged in nursery/young generation.
