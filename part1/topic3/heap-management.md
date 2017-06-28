@@ -3,20 +3,12 @@
 ## Need for a Generational Heap:
 
 * Most objects die young. Hence they can be aged in nursery/young generation.
-* Within young generation, objects are aged by moving them back and forth in survivor spaces\(S0 or From Space and S1 or To Space\). The area where most allocations happen is called Eden Space.
+* Within young generation, objects are aged by moving them back and forth in survivor spaces\(S0 and S1\). The area where most allocations happen is called Eden Space.
 * Only long lived objects are promoted to Old generation.
 
-# Hotspot's traditional generational heap![](/assets/IMG_4427.JPG)
+# Hotspot's traditional generational heap
 
-# ![](/assets/IMG_4427.JPG)
-
-# ![](/assets/IMG_4427.JPG)
-
-# ![](/assets/IMG_4427.JPG)
-
-# ![](/assets/IMG_4427.JPG)
-
-# ![](/assets/IMG_4427.JPG)
+Most new objects are created in Eden space. Once they are aged, they are moved to one of S1 or S2 depending on which one is currently marked as From space. Once From space gets filled, objects are aged and moved to To space and To and From get interchanged. So until one of them overflows, the objects are moved back and forth between S1 and S2.
 
 # ![](/assets/IMG_4427.JPG)
 
